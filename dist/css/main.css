@@ -29,7 +29,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   font-family: monospace;
-  color: #ffffff;
   font-size: 1.3em;
   font-weight: lighter;
   padding: 10px;
@@ -37,10 +36,10 @@ nav ul li {
 
 nav > ul > li > a {
   display: block;
-  color: #bbe2d7;
+  color: #ffffff;
   line-height: 2em;
-  padding: 1em;
-  font-size: 11px;
+  padding: 0.3em;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -50,8 +49,8 @@ nav > ul > li > a {
   list-style-type: none;
 }
 
-nav > li > a:hover {
-  background-color: black;
+.navList > li > a:hover {
+  color: black;
 }
 
 .btn-log {
@@ -70,6 +69,10 @@ nav > li > a:hover {
   border: 1.3px solid #ffffff;
   margin-right: 10px;
   font-family: monospace;
+}
+
+.btn-log:hover, .btn-sign:hover {
+  background-color: #34e4dc;
 }
 
 .landingPage {
@@ -108,7 +111,22 @@ article span {
 }
 
 .fieldEmail {
-  padding: 1em;
+  width: 22em;
+  height: 2em;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.btn-sub {
+  margin-left: -50px;
+  height: 25px;
+  width: 50px;
+  background: #04ab85;
+  color: white;
+}
+
+.btn-sub:hover {
+  background-color: #046952;
 }
 
 .container {

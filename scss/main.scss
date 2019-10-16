@@ -38,17 +38,16 @@ nav ul {
     nav ul li {
         display: inline-block;
         font-family: monospace;
-        color: #ffffff;
         font-size: 1.3em;
         font-weight: $font-lighter;
         padding: 10px;
     }
     nav > ul > li > a {
         display: block;
-        color: $text-color; 
+        color: #ffffff; 
         line-height: 2em;
-        padding: 1em;
-        font-size: 11px;
+        padding: 0.3em;
+        font-size: 14px;
         text-decoration: none;
     }
     .navList {
@@ -56,8 +55,8 @@ nav ul {
         float: right;
         list-style-type: none;
     }
-    nav > li > a:hover {
-        background-color: black;
+    .navList > li > a:hover {
+        color: black;
     }
     .btn-log {
         background-color: $landing-color;
@@ -67,7 +66,6 @@ nav ul {
         margin-right: 15px;
         font-family: monospace;
     }
-
     .btn-sign {
         background-color:$feature-color;
         padding: 0.5em 1.6em;
@@ -76,7 +74,9 @@ nav ul {
         margin-right: 10px;
         font-family: monospace;
     }
-
+    .btn-log:hover, .btn-sign:hover{
+        background-color: #34e4dc;
+    }
 
 
 // Landing Page
@@ -113,8 +113,23 @@ article span {
 .inviteBox form {
     display: inline;
 }
+
 .fieldEmail {
-    padding: 1em;
+    width: 22em;
+    height: 2em;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.btn-sub {
+    margin-left: -50px;
+    height: 25px;
+    width: 50px;
+    background: #04ab85;
+    color: white;
+}
+.btn-sub:hover {
+    background-color: #046952;
 }
 
 //Features
