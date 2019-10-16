@@ -18,6 +18,12 @@ body {
 }
 
 // Nav bar
+#logo {
+    float: left;
+}
+.clear {
+    clear: both;
+}
 .nav-bg {
     background-color:  $landing-color;
 }
@@ -43,18 +49,25 @@ nav ul {
         line-height: 2em;
         padding: 1em;
         font-size: 11px;
+        text-decoration: none;
+    }
+    .navList {
+        width: 100%;
+        float: right;
+        list-style-type: none;
+    }
+    nav > li > a:hover {
+        background-color: black;
     }
     .btn-log {
         background-color: $landing-color;
-        padding: 0.8em 1.6em;
+        padding: 0.5em 1.6em;
         font-size: 16px;
         border: 1.3px solid #ffffff;
         margin-right: 15px;
         font-family: monospace;
     }
-    .fieldEmail {
-        padding: 1em;
-    }
+
     .btn-sign {
         background-color:$feature-color;
         padding: 0.5em 1.6em;
@@ -63,9 +76,7 @@ nav ul {
         margin-right: 10px;
         font-family: monospace;
     }
-    // .logo {
-    //     text-align: left;
-    // }
+
 
 
 // Landing Page
@@ -102,7 +113,9 @@ article span {
 .inviteBox form {
     display: inline;
 }
-
+.fieldEmail {
+    padding: 1em;
+}
 
 //Features
 .container {
