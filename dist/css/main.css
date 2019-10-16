@@ -44,9 +44,13 @@ nav > ul > li > a {
   font-family: monospace;
 }
 
+.fieldEmail {
+  padding: 1em;
+}
+
 .btn-sign {
   background-color: #f2ae1c;
-  padding: 0.8em 1.6em;
+  padding: 0.5em 1.6em;
   font-size: 16px;
   border: 1.3px solid #ffffff;
   margin-right: 10px;
