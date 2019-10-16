@@ -1,0 +1,13 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.wrapper > div:nth-child(odd) {
+    background-color: rgb(123, 148, 177); 
+}
+
+.wrapper > div:nth-child(even) {
+    background-color: rgb(161, 132, 132); 
+}
