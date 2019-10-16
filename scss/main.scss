@@ -187,18 +187,23 @@ article span {
 
 .butnMore1 {
     padding: 12px 24px;
-    background-color: red;
+    background-color: rgb(228, 77, 77);
     color: #ffffff;
     font-size: 16px;
     border: 1.5px solid;
-
+}
+.butnMore1:hover {
+    background-color: rgb(182, 59, 59);
 }
 .butnMore2 {
     padding: 12px 24px;
     color: #ffffff;
-    background-color: rgb(37, 163, 157);
+    background-color: rgb(52, 228, 220);
     font-size: 16px;
     border: 1.5px solid;
+}
+.butnMore2:hover {
+    background-color: rgb(37, 163, 157);
 }
 
 

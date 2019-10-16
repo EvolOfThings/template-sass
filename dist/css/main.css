@@ -192,18 +192,26 @@ article span {
 
 .butnMore1 {
   padding: 12px 24px;
-  background-color: red;
+  background-color: #e44d4d;
   color: #ffffff;
   font-size: 16px;
   border: 1.5px solid;
 }
 
+.butnMore1:hover {
+  background-color: #b63b3b;
+}
+
 .butnMore2 {
   padding: 12px 24px;
   color: #ffffff;
-  background-color: #25a39d;
+  background-color: #34e4dc;
   font-size: 16px;
   border: 1.5px solid;
+}
+
+.butnMore2:hover {
+  background-color: #25a39d;
 }
 
 .mission {
