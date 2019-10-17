@@ -18,12 +18,10 @@ body {
 }
 
 // Nav bar
-#logo {
+.brand-logo {
     float: left;
 }
-.clear {
-    clear: both;
-}
+
 .nav-bg {
     background-color:  $landing-color;
 }
@@ -50,12 +48,12 @@ nav ul {
         font-size: 14px;
         text-decoration: none;
     }
-    .navList {
+    .nav-list {
         width: 100%;
         float: right;
         list-style-type: none;
     }
-    .navList > li > a:hover {
+    .nav-list > li > a:hover {
         color: black;
     }
     .btn-log {
@@ -81,7 +79,7 @@ nav ul {
 
 // Landing Page
 
-.landingPage {
+.landing-page {
     text-align: center;
     padding: 5em;
     background-color: $landing-color;
@@ -93,14 +91,14 @@ nav ul {
     font-size: 2.5em;
     color: rgb(229, 232, 235);
 }
-.landingImageBox {
+.landing-imageBox {
     // border: 1px solid black;
     // width: 25%;
     // height: 10em;
     margin: 0 auto;
     padding: 15px 0;
 }
-.landingImage {
+.landing-image {
     width: 45%;
 }
 article {
@@ -110,11 +108,11 @@ article {
 article span {
     color: rgb(31, 179, 184);
 }
-.inviteBox form {
+.invite-box form {
     display: inline;
 }
 
-.fieldEmail {
+.field-email {
     width: 22em;
     height: 2em;
     padding-right: 50px;
@@ -153,7 +151,7 @@ article span {
 .container p {
     font-size: 1.1em;
 }
-.firstRow, .secondRow {
+.first-row, .second-row {
     display: flex;
     height: auto;
 }
@@ -167,13 +165,13 @@ article span {
 .c1r1, .c2r2 {
     text-align: center;
 }
-.imageFeature1, .imageFeature2  {
+.image-feature1, .image-feature2  {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.feature1Desc, .feature2Desc {
+.feature1-desc, .feature2-desc {
     text-align: left;
     padding: 10%;
 }
@@ -185,24 +183,24 @@ article span {
     background-color: rgb(52, 228, 220);
 }
 
-.butnMore1 {
+.btn-more1 {
     padding: 12px 24px;
     background-color: rgb(228, 77, 77);
     color: #ffffff;
     font-size: 16px;
     border: 1.5px solid;
 }
-.butnMore1:hover {
+.btn-more1:hover {
     background-color: rgb(182, 59, 59);
 }
-.butnMore2 {
+.btn-more2 {
     padding: 12px 24px;
     color: #ffffff;
     background-color: rgb(52, 228, 220);
     font-size: 16px;
     border: 1.5px solid;
 }
-.butnMore2:hover {
+.btn-more2:hover {
     background-color: rgb(37, 163, 157);
 }
 
